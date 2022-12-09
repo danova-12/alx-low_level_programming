@@ -17,7 +17,7 @@ int main(void)
 	}
 	while (letter <= 'f')
 	{
-		putchar(letter)
+		putchar(letter);
 		letter++;
 	}
 	putchar('\n');
