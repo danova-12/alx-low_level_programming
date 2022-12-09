@@ -10,7 +10,7 @@ int main(void)
 	int small = 'a';
 	int capital = 'A';
 
-	while (small <= 'a')
+	while (small <= 'z')
 	{
 		putchar(small);
 		small++;
