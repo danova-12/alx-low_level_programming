@@ -20,11 +20,16 @@ int main(void)
 				putchar(',');
 				putchar(' ');
 			}
-				
-			
-		}
-	}
+			if (tens<9 && ones<9)
+			{
+				putchar(',');
+				putchar(' ');	
+			}	
+	
+		}	
+	}	
 	putchar('\n');
+
 
 	return (0);
 }
