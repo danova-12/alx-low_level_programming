@@ -17,16 +17,16 @@ int main(void)
 			{
 				putchar(tens);
 				putchar(ones);
-				putchar(',');
-				putchar(' ');
-			}
-			if (tens<9 && ones<9)
-			{
-				putchar(',');
-				putchar(' ');	
-			}	
+				
+				if (tens<9 && ones<9)
+				{
+					putchar(',');
+					putchar(' ');	
+				}	
 	
-		}	
+		
+			}	
+		}		
 	}	
 	putchar('\n');
 
