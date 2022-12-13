@@ -7,7 +7,6 @@
  */
 void print_alphabet_x10(void)
 {
-	
 	int boundary = 0;
 
 	while (boundary < 10)
