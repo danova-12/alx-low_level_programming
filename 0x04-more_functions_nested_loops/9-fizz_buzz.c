@@ -12,14 +12,14 @@ int main(void)
 			printf("FizzBuzz");
 		if else ((i % 3 == 0))
 		 	printf("Fizz");
-		if else ((i % 5 == 0))
+		if else ((i % 5 == 0)iiii)
 			printf("Buzz");
 		else
 
 			printf("%d", i);
 		printf(" ");
 	}
-	printf("\n")
+	printf("\n");
 
 	return (0);
 }
