@@ -22,7 +22,7 @@ int main(void)
 		printf(" ");
 	}
 	printf("\n");
-
+	printf("Buzz");
 	return (0);
 }
 
