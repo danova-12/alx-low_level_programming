@@ -19,7 +19,7 @@ void rev_string(char *s)
 
 		current = s[length - i - 1];
 		s[length - i - 1] = s[i];
-		s[i] = temp;
+		s[i] = current;
 		i++;
 	}
 }
