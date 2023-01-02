@@ -30,6 +30,6 @@ unsigned int _strspn(char *s, char *accept)
 		i++;
 	}
 
-	return (matches);
+	return (mat);
 
 }
