@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * factorial - compute factorial
- * @s: pointer
+ * @n: pointer
  *
  * Return: factorial
  */
