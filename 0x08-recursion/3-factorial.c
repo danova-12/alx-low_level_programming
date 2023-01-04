@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 /**
  * factorial - compute factorial
  * @s: pointer
