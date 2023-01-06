@@ -15,7 +15,7 @@ int main(int argc, char **argv)
 	{
 		i = atoi(argv[1]);
 		j = atoi(argv[2]);
-		multi = n * m;
+		multi = i * j;
 
 		printf("%i\n", multi);
 	}
