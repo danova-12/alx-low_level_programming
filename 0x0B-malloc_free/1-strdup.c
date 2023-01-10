@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * _strdup - wedgywg
+ * size - compute length
  * @str: pointer
  *
  * Return: pointer
@@ -30,5 +31,5 @@ int size(char *p)
 	{
 		j++;
 	}
-	return (j + 1);
+	return (j);
 }
