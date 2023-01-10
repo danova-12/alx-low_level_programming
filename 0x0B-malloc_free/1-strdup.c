@@ -1,9 +1,7 @@
 #include "main.h"
 /**
  * _strdup - wedgywg
- * size - compute length
  * @str: pointer
- *
  * Return: pointer
  */
 char *_strdup(char *str)
@@ -11,7 +9,7 @@ char *_strdup(char *str)
 	int i = 0;
 	char *dest = malloc(sizeof(char) * size(str));
 
-	if (str == NULL || dest == NULL)
+	if (str == 0 || dest == NULL)
 	{
 		return (NULL);
 	}
@@ -23,6 +21,12 @@ char *_strdup(char *str)
 	dest[i] = '\0';
 	return (dest);
 }
+/**
+ * size - compute size
+ * @p: pointer
+ * Return: length
+ */
+
 int size(char *p)
 {
 	int j = 0;
@@ -31,5 +35,5 @@ int size(char *p)
 	{
 		j++;
 	}
-	return (j);
+	return (j + 1);
 }
