@@ -6,9 +6,16 @@
  * Return: pointer
  */
 char *_strdup(char *str)
-{
+{	int j, len;
+
+	while (str[j] != '\0')
+	{
+		j++;
+	}
+
+	len = j + 1;
 	int i = 0;
-	char *dest = malloc(sizeof(*str) + 1);
+	char *dest = malloc(sizeof(char) * len);
 
 	if (str == NULL || dest == NULL)
 	{
