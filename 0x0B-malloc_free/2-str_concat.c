@@ -8,21 +8,25 @@
  */
 char *str_concat(char *s1, char *s2)
 {
-	int l1 = size1(s1);
-	int l2 = size2(s2);
-	int total = l1 + l2 + 1;
+	int l1;
+	int l2;
+	int total;
 	int i = 0, j = 0;
-	char *str = malloc(sizeof(char) * total);
+	char *str;
 
 
 	if (s1 == NULL)
 	{
 		s1 = "";
 	}
+	l1 = size1(s1);
 	if (s2 == NULL)
 	{
 		s2 = "";
 	}
+	l2 = size2(s2);
+	total = l1 + l2 + 1;
+	str = malloc(sizeof(char) * total);
 	if (str == NULL)
 	{
 		return (NULL);
