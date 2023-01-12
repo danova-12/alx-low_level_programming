@@ -18,6 +18,9 @@ int *array_range(int min, int max)
 	if (array == NULL)
 		return (0);
 	while (i <= max - min)
+	{
 		*(array + i) = d++;
+		i++;
+	}
 	return (array);
 }
