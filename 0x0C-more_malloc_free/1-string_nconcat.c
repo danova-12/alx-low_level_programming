@@ -49,7 +49,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		size1++;
 		j++;
 	}
-	p[total] = '\0';
+	p[size1] = '\0';
 
 	return (p);
 }
