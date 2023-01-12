@@ -1,22 +1,23 @@
+#include <stdio.h>
 #include <stdlib.h>
 #include "main.h"
 /**
- * setmemory - copy char
- * @ptr: string
+ * _memset - copy char
+ * @s: string
  * @b: input
- * @n: memory block size
- * Return: pointer to memory allocated
+ * @n: bytes
+ * Return: string
  */
-char *setmemory(char *ptr, char b, unsigned int n)
+char *_memset(char *s, char b, unsigned int n)
 {
 	unsigned int i;
 
 	for (i = 0; i < n; i++)
 	{
-		ptr[i] = b;
+		s[i] = b;
 	}
 
-	return (ptr);
+	return (s);
 }
 /**
  * _calloc - allocates memory for an array using malloc
@@ -38,7 +39,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	{
 		return (NULL);
 	}
-	setmemory(p, 0, (nmemb * size));
+	_memset(p, 0, (nmemb * size));
 
 	return (p);
 }
