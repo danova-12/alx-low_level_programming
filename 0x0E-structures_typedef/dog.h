@@ -1,7 +1,7 @@
-#ifndef DOG_H
-#define DOG_H
+#ifndef DOG
+#define DOG
 /**
- * struct dog - user defined data type
+ * struct dog - define dog stucture
  * @name: name of the dog
  * @age: age of the dog
  * @owner: owner of the dog
