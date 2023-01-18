@@ -4,7 +4,7 @@
  * int_index - search integer
  * @array: array passed
  * @size: size of the array
- * @cmp: pointer to function 
+ * @cmp: pointer to function
  *
  * Return: return index and -1 if size less than 0 and match fails
  */
