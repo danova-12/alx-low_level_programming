@@ -13,19 +13,3 @@ void print_name(char *name, void (*f)(char *))
 
 	f(name);
 }
-/**
- * print - eirii
- * @namee: u3ueu3wswjsnn
- * Return: 4f4r
- */
-void print(char *namee)
-{
-    int i=0;
-    while(namee[i]!='\0')
-    {
-        _putchar(namee[i]);
-        i++;
-    }
-
-
-}
