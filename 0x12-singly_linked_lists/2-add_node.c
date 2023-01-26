@@ -26,18 +26,18 @@ list_t *add_node(list_t **head, const char *str)
 }
 /**
  * str_length - computes string length
- * @str: string pointer
+ * @st: string pointer
  *
  * Return: length
  */
-size_t str_length(char *str)
+size_t str_length(const char *st)
 {
-	size_t len = 0;
+	size_t lent = 0;
 
-	while (str[len] != '\0')
+	while (st[lent] != '\0')
 	{
-		len++;
+		lent++;
 	}
-	return (len);
+	return (lent);
 }
 
